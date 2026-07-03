@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WYRQHP6E9C"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WYRQHP6E9C');
+</script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>SiteMetrics Pro - Project Input</title>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Google Fonts: Inter & JetBrains Mono -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=JetBrains+Mono:wght@450&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-bright": "#f9faf5",
+                        "outline-variant": "#c5c6cd",
+                        "tertiary-fixed-dim": "#afc9ea",
+                        "surface-container-low": "#f3f4f0",
+                        "surface": "#f9faf5",
+                        "tertiary-container": "#0a2742",
+                        "primary-fixed": "#d7e2ff",
+                        "on-tertiary-container": "#768fae",
+                        "error": "#ba1a1a",
+                        "tertiary-fixed": "#d1e4ff",
+                        "primary-container": "#1b263b",
+                        "on-primary-fixed-variant": "#3c475d",
+                        "on-tertiary-fixed-variant": "#2f4865",
+                        "surface-container": "#edeeea",
+                        "surface-container-lowest": "#ffffff",
+                        "inverse-on-surface": "#f0f1ed",
+                        "error-container": "#ffdad6",
+                        "surface-container-high": "#e8e8e4",
+                        "primary": "#051125",
+                        "primary-fixed-dim": "#bbc6e2",
+                        "on-tertiary": "#ffffff",
+                        "secondary-fixed": "#ffdbcc",
+                        "tertiary": "#001224",
+                        "surface-container-highest": "#e2e3df",
+                        "inverse-primary": "#bbc6e2",
+                        "surface-variant": "#e2e3df",
+                        "on-primary-container": "#828da7",
+                        "outline": "#75777d",
+                        "background": "#f9faf5",
+                        "on-secondary-fixed-variant": "#7b2f00",
+                        "on-secondary-container": "#622400",
+                        "on-error-container": "#93000a",
+                        "on-background": "#1a1c1a",
+                        "on-secondary-fixed": "#351000",
+                        "surface-tint": "#545e76",
+                        "on-secondary": "#ffffff",
+                        "on-surface-variant": "#45474d",
+                        "secondary": "#a14000",
+                        "secondary-container": "#fe7a34",
+                        "on-primary": "#ffffff",
+                        "on-surface": "#1a1c1a",
+                        "inverse-surface": "#2f312e",
+                        "secondary-fixed-dim": "#ffb694",
+                        "on-primary-fixed": "#101b30",
+                        "on-error": "#ffffff",
+                        "on-tertiary-fixed": "#001d36",
+                        "surface-dim": "#d9dad6"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "gutter": "16px",
+                        "base": "4px",
+                        "margin-desktop": "32px",
+                        "column-gap": "24px",
+                        "margin-mobile": "16px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Inter"],
+                        "headline-lg-mobile": ["Inter"],
+                        "headline-md": ["Inter"],
+                        "headline-lg": ["Inter"],
+                        "label-caps": ["Inter"],
+                        "body-lg": ["Inter"],
+                        "data-mono": ["JetBrains Mono"]
+                    },
+                    "fontSize": {
+                        "body-md": ["14px", {"lineHeight": "20px", "fontWeight": "400"}],
+                        "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "700"}],
+                        "headline-md": ["20px", {"lineHeight": "28px", "fontWeight": "600"}],
+                        "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "label-caps": ["12px", {"lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "700"}],
+                        "body-lg": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "data-mono": ["13px", {"lineHeight": "18px", "fontWeight": "450"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        body { font-family: 'Inter', sans-serif; background-color: #f9faf5; }
+        .input-focus:focus { outline: 2px solid #051125; border-color: transparent; }
+        .bento-grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 24px; }
+        .card-shadow { box-shadow: 0px 2px 4px rgba(27, 38, 59, 0.08); }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background">
+<!-- TopAppBar -->
+<header class="bg-surface border-b border-outline-variant fixed top-0 w-full z-50 flex justify-between items-center h-16 px-margin-mobile md:px-margin-desktop">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-2xl" data-icon="architecture">architecture</span>
+<span class="font-headline-md text-headline-md font-bold text-primary">SiteMetrics Pro</span>
+</div>
+<div class="hidden md:flex items-center gap-8">
+<nav class="flex gap-6">
+<a class="text-on-surface-variant hover:bg-surface-container-high transition-colors font-label-caps text-label-caps px-2 py-1" href="#">PROJECTS</a>
+<a class="text-primary font-bold border-b-2 border-secondary font-label-caps text-label-caps px-2 py-1" href="#">CALCULATE</a>
+<a class="text-on-surface-variant hover:bg-surface-container-high transition-colors font-label-caps text-label-caps px-2 py-1" href="#">REPORTS</a>
+</nav>
+<div class="w-10 h-10 rounded-full overflow-hidden border border-outline-variant">
+<img class="w-full h-full object-cover" data-alt="A professional headshot of a senior construction project manager in a high-visibility vest and a clean white hard hat. He is standing against a backdrop of a blurred architectural blueprint and a modern office interior. The lighting is crisp and corporate, highlighting reliability and experience, in line with a high-end construction management SaaS aesthetic." src="model.png"/>
+</div>
+</div>
+</header>
+<!-- NavigationDrawer (Sidebar) - Desktop Only -->
+<aside class="hidden md:flex fixed left-0 top-16 h-[calc(100vh-64px)] w-[240px] bg-surface-container-lowest border-r border-outline-variant flex-col py-gutter">
+<div class="px-6 mb-8">
+<div class="flex items-center gap-3 mb-2">
+<div class="w-10 h-10 bg-primary-container rounded-xl flex items-center justify-center">
+<span class="material-symbols-outlined text-primary-fixed" data-icon="construction">construction</span>
+</div>
+<div>
+<p class="font-headline-md text-headline-md text-primary leading-tight">Lead Engineer</p>
+<p class="font-body-md text-body-md text-on-surface-variant">Northern District</p>
+</div>
+</div>
+</div>
+<nav class="flex-1 space-y-1">
+<a class="flex items-center gap-3 py-3 px-4 mx-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded-xl" href="#">
+<span class="material-symbols-outlined" data-icon="foundation">foundation</span>
+<span class="font-body-md text-body-md">Active Projects</span>
+</a>
+<a class="flex items-center gap-3 py-3 px-4 mx-2 bg-primary-container text-on-primary-container rounded-xl translate-x-1 transition-transform" href="#">
+<span class="material-symbols-outlined" data-icon="calculate">calculate</span>
+<span class="font-body-md text-body-md">New Calculation</span>
+</a>
+<a class="flex items-center gap-3 py-3 px-4 mx-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded-xl" href="#">
+<span class="material-symbols-outlined" data-icon="safety_check">safety_check</span>
+<span class="font-body-md text-body-md">Safety Logs</span>
+</a>
+<a class="flex items-center gap-3 py-3 px-4 mx-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded-xl" href="#">
+<span class="material-symbols-outlined" data-icon="map">map</span>
+<span class="font-body-md text-body-md">Resource Map</span>
+</a>
+</nav>
+<div class="px-6 py-4 border-t border-outline-variant">
+<p class="font-label-caps text-label-caps text-outline">VERSION 2.4.0</p>
+</div>
+</aside>
+<!-- Main Content -->
+<main class="pt-24 pb-20 md:pb-8 px-margin-mobile md:pl-[272px] md:pr-margin-desktop min-h-screen">
+<div class="max-w-5xl mx-auto">
+<header class="mb-10">
+<h1 class="font-headline-lg text-headline-lg text-primary mb-2">Project Specification</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Define the core parameters to generate your project baseline and resource estimates.</p>
+</header>
+<!-- Bento Layout for Form -->
+<form class="bento-grid" id="calculation-form">
+<!-- Section 1: Identity -->
+<div class="col-span-12 lg:col-span-8 bg-surface-container-low p-6 rounded-xl border border-outline-variant card-shadow">
+<div class="flex items-center gap-2 mb-6">
+<span class="material-symbols-outlined text-secondary" data-icon="description">description</span>
+<h2 class="font-headline-md text-headline-md text-primary">Core Identity</h2>
+</div>
+<div class="space-y-6">
+<div class="group">
+<label class="block font-label-caps text-label-caps text-on-surface-variant mb-2" for="project-name">PROJECT NAME</label>
+<input class="w-full bg-white border border-outline-variant rounded px-4 py-3 font-body-md text-body-md input-focus transition-all" id="project-name" placeholder="e.g. Skyline Residency Phase II" required="" type="text"/>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<label class="block font-label-caps text-label-caps text-on-surface-variant mb-2" for="building-type">BUILDING TYPE</label>
+<select class="w-full bg-white border border-outline-variant rounded px-4 py-3 font-body-md text-body-md input-focus appearance-none" id="building-type">
+<option>Apartment</option>
+<option>Office Complex</option>
+<option>Industrial Warehouse</option>
+<option>Retail Center</option>
+<option>Educational Facility</option>
+</select>
+</div>
+<div>
+<label class="block font-label-caps text-label-caps text-on-surface-variant mb-2" for="site-conditions">SITE CONDITIONS</label>
+<select class="w-full bg-white border border-outline-variant rounded px-4 py-3 font-body-md text-body-md input-focus appearance-none" id="site-conditions">
+<option>Urban (Dense)</option>
+<option>Suburban (Standard)</option>
+<option>Mountainous / Sloped</option>
+<option>Coastal / High Salinity</option>
+<option>Rural / Isolated</option>
+</select>
+</div>
+</div>
+</div>
+</div>
+<!-- Section 2: Visual Context (Image/Illustration) -->
+<div class="col-span-12 lg:col-span-4 h-full min-h-[300px]">
+<div class="relative w-full h-full rounded-xl overflow-hidden card-shadow">
+<img class="w-full h-full object-cover" data-alt="A high-angle architectural visualization of a modern construction site at twilight. The image shows a crane against a deep blue sky with warm orange lights from the construction activity below. The aesthetic is clean, technical, and professional, using a primary palette of navy and safety orange, perfectly matching the SiteMetrics Pro brand." src="screen.png"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex flex-col justify-end p-6">
+<p class="font-headline-md text-headline-md text-white">Advanced Estimator</p>
+<p class="font-body-md text-body-md text-on-primary-fixed-variant">AI-powered logistics modeling</p>
+</div>
+</div>
+</div>
+<!-- Section 3: Physical Metrics -->
+<div class="col-span-12 lg:col-span-4 bg-surface-container-low p-6 rounded-xl border border-outline-variant card-shadow">
+<div class="flex items-center gap-2 mb-6">
+<span class="material-symbols-outlined text-secondary" data-icon="straighten">straighten</span>
+<h2 class="font-headline-md text-headline-md text-primary">Physical Metrics</h2>
+</div>
+<div class="space-y-6">
+<div>
+<label class="block font-label-caps text-label-caps text-on-surface-variant mb-2" for="floor-area">TOTAL FLOOR AREA (m²)</label>
+<div class="relative">
+<input class="w-full bg-white border border-outline-variant rounded px-4 py-3 font-data-mono text-data-mono input-focus pr-12" id="floor-area" placeholder="0.00" type="number"/>
+<span class="absolute right-4 top-3.5 text-outline font-label-caps text-label-caps">M²</span>
+</div>
+</div>
+<div>
+<label class="block font-label-caps text-label-caps text-on-surface-variant mb-2" for="num-floors">NUMBER OF FLOORS</label>
+<input class="w-full bg-white border border-outline-variant rounded px-4 py-3 font-data-mono text-data-mono input-focus" id="num-floors" placeholder="1" type="number"/>
+</div>
+</div>
+</div>
+<!-- Section 4: Project Logistics/Status Preview -->
+<div class="col-span-12 lg:col-span-8 bg-surface-container-low p-6 rounded-xl border border-outline-variant card-shadow flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 mb-6">
+<span class="material-symbols-outlined text-secondary" data-icon="assignment_turned_in">assignment_turned_in</span>
+<h2 class="font-headline-md text-headline-md text-primary">Calculation Constraints</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="space-y-4">
+<div class="flex items-center justify-between p-3 bg-white rounded border border-outline-variant">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-outline" data-icon="bolt">bolt</span>
+<span class="font-body-md text-body-md text-primary">High Precision Mode</span>
+</div>
+<input checked="" class="rounded-full w-5 h-5 text-secondary border-outline focus:ring-secondary" type="checkbox"/>
+</div>
+<div class="flex items-center justify-between p-3 bg-white rounded border border-outline-variant">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-outline" data-icon="eco">eco</span>
+<span class="font-body-md text-body-md text-primary">Include LEED Impact</span>
+</div>
+<input class="rounded-full w-5 h-5 text-secondary border-outline focus:ring-secondary" type="checkbox"/>
+</div>
+</div>
+<div class="bg-surface-container-highest p-4 rounded-xl flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-secondary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-on-secondary-container" data-icon="info" style="font-variation-settings: 'FILL' 1;">info</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant italic">
+                                    Estimates are calculated using regional labor rates and current material indices.
+                                </p>
+</div>
+</div>
+</div>
+<div class="mt-8 flex justify-end gap-4">
+<button class="px-6 py-3 font-label-caps text-label-caps text-outline hover:text-primary transition-colors" type="reset">CLEAR ALL</button>
+<button class="bg-secondary text-white px-10 py-3 rounded-lg shadow-sm hover:opacity-90 active:scale-95 transition-all flex items-center gap-2" type="submit">
+<span class="font-label-caps text-label-caps">CALCULATE PROJECT</span>
+<span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+</div>
+</form>
+</div>
+</main>
+<!-- BottomNavBar - Mobile Only -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full flex justify-around items-center py-2 bg-surface-container dark:bg-surface-container-low border-t border-outline-variant z-50">
+<button class="flex flex-col items-center justify-center text-on-surface-variant hover:text-primary transition-all">
+<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
+<span class="font-label-caps text-label-caps">Dashboard</span>
+</button>
+<button class="flex flex-col items-center justify-center text-secondary dark:text-secondary-fixed-dim font-bold scale-95">
+<span class="material-symbols-outlined" data-icon="calculate" style="font-variation-settings: 'FILL' 1;">calculate</span>
+<span class="font-label-caps text-label-caps">Calculate</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-surface-variant hover:text-primary transition-all">
+<span class="material-symbols-outlined" data-icon="history">history</span>
+<span class="font-label-caps text-label-caps">History</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-surface-variant hover:text-primary transition-all">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+<span class="font-label-caps text-label-caps">Settings</span>
+</button>
+</nav>
+<script>
+        // Micro-interaction for the Calculate button
+        const form = document.getElementById('calculation-form');
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const btn = e.target.querySelector('button[type="submit"]');
+            const originalContent = btn.innerHTML;
+            
+            btn.innerHTML = `
+                <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                  <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                  <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                </svg>
+                <span class="font-label-caps text-label-caps">CALCULATING...</span>
+            `;
+            btn.classList.add('opacity-80', 'pointer-events-none');
+
+            setTimeout(() => {
+                alert('Analysis Complete: Baseline generated for "' + document.getElementById('project-name').value + '". Redirecting to results dashboard.');
+                btn.innerHTML = originalContent;
+                btn.classList.remove('opacity-80', 'pointer-events-none');
+            }, 2000);
+        });
+
+        // Hover effect for input fields
+        const inputs = document.querySelectorAll('input, select');
+        inputs.forEach(input => {
+            input.addEventListener('focus', () => {
+                input.parentElement.querySelector('label')?.classList.add('text-secondary');
+            });
+            input.addEventListener('blur', () => {
+                input.parentElement.querySelector('label')?.classList.remove('text-secondary');
+            });
+        });
+    </script>
+</body></html>
